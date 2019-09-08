@@ -1,4 +1,5 @@
 # NodaTime.MongoDBSerializers
+![image of saved document](https://github.com/hugoj0s3/NodaTime.MongoDBSerializers/blob/master/datasaved.png)
 
 ## Getting started
 ### Registring all supported serializers
@@ -32,7 +33,7 @@
 * Period
 * Duration
 
-## Limitations
+## Limitation
 For the types ZonedDateTime, LocalDateTime, LocalTime, OffsetDateTime, OffsetTime it serialize using the unix milliseconds so it will cutt off the nanoseconds. If you have a scenario where you need to save the current time and get it back from a mongo db and compare both. Use the milliseconds like this:
 
 ```CSharp
