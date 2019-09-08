@@ -1,4 +1,7 @@
 # NodaTime.MongoDBSerializers
+
+[![Build status](https://ci.appveyor.com/api/projects/status/baxe77t1p2m2qsje?svg=true)](https://ci.appveyor.com/project/hugoj0s3/nodatime-mongodbserializers)
+
 ![image of saved document](https://github.com/hugoj0s3/NodaTime.MongoDBSerializers/blob/master/datasaved.png)
 
 ## Getting started
