@@ -2,11 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.2</Version>
+    <Description>Serializers for NodaTime objects</Description>
+    <PackageProjectUrl>https://github.com/hugoj0s3/NodaTime.MongoDBSerializers</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hugoj0s3/NodaTime.MongoDBSerializers</RepositoryUrl>
+    <PackageTags>mongo mongodb bson nosql nodatime</PackageTags>
+    <PackageLicenseUrl>https://github.com/hugoj0s3/NodaTime.MongoDBSerializers/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageReleaseNotes>Pointed to Nodatime 2.4.7</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MongoDB.Bson" Version="2.9.1" />
-    <PackageReference Include="NodaTime" Version="2.4.6" />
+    <PackageReference Include="MongoDB.Bson" Version="2.9.2" />
+    <PackageReference Include="NodaTime" Version="2.4.7" />
   </ItemGroup>
 
 </Project>
